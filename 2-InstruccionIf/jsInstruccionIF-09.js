@@ -1,6 +1,8 @@
+/*Alumno: Alejo Paiva
+Ejercicio: 9*/
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	random = Math.floor(Math.random() * 10)
+	
 
 }//FIN DE LA FUNCIÓN

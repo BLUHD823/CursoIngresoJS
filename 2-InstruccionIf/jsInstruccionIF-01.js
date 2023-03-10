@@ -1,6 +1,13 @@
+/*Alumno: Alejo Paiva
+Ejercicio: 1*/
 function mostrar()
-{
-	//tomo la edad  
-	alert("ok");
+{	
+	let edad;
+	edad = document.getElementById("txtIdEdad").value;
+	edad = parseInt(edad);
+	if(edad = 15){
+		alert("niña bonita");
+	}
+	
 
 }//FIN DE LA FUNCIÓN

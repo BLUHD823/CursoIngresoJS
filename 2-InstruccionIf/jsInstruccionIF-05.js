@@ -1,6 +1,14 @@
+/*Alumno: Alejo Paiva
+Ejercicio: 5*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edad;
+	edad = document.getElementById("txtIdEdad").value;
+	edad = parseInt(edad);
 
-}//FIN DE LA FUNCIÓN
+	if(edad > 17 ){
+		alert("No Es adolescente");
+	}else if (edad < 13){
+		alert("No es adolescente");
+	}
+}
